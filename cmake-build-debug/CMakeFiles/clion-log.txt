@@ -1,4 +1,4 @@
-"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Intel\CLionProjects\untitled1
+"D:\OSCAR\DISCO E\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\ASUS\Desktop\proyecto
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Intel/CLionProjects/untitled1/cmake-build-debug
+-- Build files have been written to: C:/Users/ASUS/Desktop/proyecto/cmake-build-debug

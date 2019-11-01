@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\OSCAR\DISCO E\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\OSCAR\DISCO E\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Intel\CLionProjects\untitled1
+CMAKE_SOURCE_DIR = C:\Users\ASUS\Desktop\proyecto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Intel\CLionProjects\untitled1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ASUS\Desktop\proyecto\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Intel\CLionProjects\untitled1\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\OSCAR\DISCO E\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\OSCAR\DISCO E\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Intel\CLionProjects\untitled1\cmake-build-debug\CMakeFiles C:\Users\Intel\CLionProjects\untitled1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\Desktop\proyecto\cmake-build-debug\CMakeFiles C:\Users\ASUS\Desktop\proyecto\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Intel\CLionProjects\untitled1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ASUS\Desktop\proyecto\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ untitled1/fast:
 	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+Robot.obj: Robot.cpp.obj
+
+.PHONY : Robot.obj
+
+# target to build an object file
+Robot.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Robot.cpp.obj
+.PHONY : Robot.cpp.obj
+
+Robot.i: Robot.cpp.i
+
+.PHONY : Robot.i
+
+# target to preprocess a source file
+Robot.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Robot.cpp.i
+.PHONY : Robot.cpp.i
+
+Robot.s: Robot.cpp.s
+
+.PHONY : Robot.s
+
+# target to generate assembly for a file
+Robot.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Robot.cpp.s
+.PHONY : Robot.cpp.s
+
+coordenada.obj: coordenada.cpp.obj
+
+.PHONY : coordenada.obj
+
+# target to build an object file
+coordenada.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/coordenada.cpp.obj
+.PHONY : coordenada.cpp.obj
+
+coordenada.i: coordenada.cpp.i
+
+.PHONY : coordenada.i
+
+# target to preprocess a source file
+coordenada.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/coordenada.cpp.i
+.PHONY : coordenada.cpp.i
+
+coordenada.s: coordenada.cpp.s
+
+.PHONY : coordenada.s
+
+# target to generate assembly for a file
+coordenada.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/coordenada.cpp.s
+.PHONY : coordenada.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,6 +203,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+orden.obj: orden.cpp.obj
+
+.PHONY : orden.obj
+
+# target to build an object file
+orden.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/orden.cpp.obj
+.PHONY : orden.cpp.obj
+
+orden.i: orden.cpp.i
+
+.PHONY : orden.i
+
+# target to preprocess a source file
+orden.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/orden.cpp.i
+.PHONY : orden.cpp.i
+
+orden.s: orden.cpp.s
+
+.PHONY : orden.s
+
+# target to generate assembly for a file
+orden.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/orden.cpp.s
+.PHONY : orden.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +239,18 @@ help:
 	@echo ... untitled1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Robot.obj
+	@echo ... Robot.i
+	@echo ... Robot.s
+	@echo ... coordenada.obj
+	@echo ... coordenada.i
+	@echo ... coordenada.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... orden.obj
+	@echo ... orden.i
+	@echo ... orden.s
 .PHONY : help
 
 

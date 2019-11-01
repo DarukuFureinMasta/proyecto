@@ -9,38 +9,9 @@
 
 using namespace std;
 
-struct Coordenada
-{
-    Entero x; Entero y;
-    Coordenada(int p_x, int p_y);
-};
 
-struct Orden
-{
-    Coordenada posicion_final; Texto Producto;
-    Orden(Coordenada p_posicion, Texto p_producto);
-};
 
-class Robot {
-private:
-    Coordenada m_Posicion;
-    vector<Orden> m_Cola;
-    Texto m_Producto;
-    Entero m_TiempoEspera;
-public:
-    Robot();
-    Robot(int x, int y);
-    Robot(Coordenada origen);
 
-    void setProducto(Texto producto);       Texto getProducto();
-    void setPosicion(Coordenada posicion);  Coordenada getPosicion();
-    void setCola(vector<Orden> cola);       vector<Orden> getCola();
-
-    void addCola(Orden nuevaOrden);
-    void ir_a(Coordenada pFinal);
-    void ejecutar(Orden orden);
-    void recoger(Coordenada posicion, string producto);
-};
 
 int main()
 {
